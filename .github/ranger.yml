@@ -1,0 +1,5 @@
+# in .github/ranger.yml
+labels:
+  # Make all PRs labeled docs get automatically merged
+  'approved': 
+    action: rebase
