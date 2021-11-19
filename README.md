@@ -5,7 +5,6 @@
 * Create Discord Chat and Webhook channels
 * Create Github Webhook
 * Create Discord Team
-* Make sure Universe readme is up to date
 
 -------------------
 -------------------
