@@ -6,12 +6,15 @@ import CareKitStore
 import HealthKit
 import HealthKitUI
 
+let healthStore = HKHealthStore()
+
+
 struct ContentView: View {
     var body: some View {
         VStack {
             ZStack {
                 Circle()
-                    .fill(Color.cyan)
+                    .fill(Color.teal)
                     .frame(width: 500, height: 480)
                 VStack {
                     HStack {

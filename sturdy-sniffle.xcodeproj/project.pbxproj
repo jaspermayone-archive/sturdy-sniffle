@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A401B2B9278B7FE800CD9F5C /* RequestHealthAccessButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A401B2B8278B7FE800CD9F5C /* RequestHealthAccessButtonView.swift */; };
 		A4C8E9BE278B347800282BC4 /* CareKit in Frameworks */ = {isa = PBXBuildFile; productRef = A4C8E9BD278B347800282BC4 /* CareKit */; };
 		A4C8E9C0278B347800282BC4 /* CareKitStore in Frameworks */ = {isa = PBXBuildFile; productRef = A4C8E9BF278B347800282BC4 /* CareKitStore */; };
 		A4C8E9C2278B347800282BC4 /* CareKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = A4C8E9C1278B347800282BC4 /* CareKitUI */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A401B2B8278B7FE800CD9F5C /* RequestHealthAccessButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHealthAccessButtonView.swift; sourceTree = "<group>"; };
 		A4CF784D27889245007FB744 /* sturdy_sniffleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sturdy_sniffleApp.swift; sourceTree = "<group>"; };
 		A4CF784E27889245007FB744 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A4CF785027889246007FB744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,11 +48,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A401B2B4278B7E4500CD9F5C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		A4CF784527889245007FB744 = {
 			isa = PBXGroup;
 			children = (
 				A4CF784D27889245007FB744 /* sturdy_sniffleApp.swift */,
 				A4CF787D278902D3007FB744 /* Views */,
+				A401B2B4278B7E4500CD9F5C /* Data */,
 				A4CF787F27890361007FB744 /* System Stuff */,
 				A4CF785627889246007FB744 /* Products */,
 				A4CF787127889295007FB744 /* Frameworks */,
@@ -87,6 +97,7 @@
 			children = (
 				A4CF784E27889245007FB744 /* ContentView.swift */,
 				A4CF787A2788A836007FB744 /* Common */,
+				A401B2B8278B7FE800CD9F5C /* RequestHealthAccessButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +191,7 @@
 			files = (
 				A4CF786027889246007FB744 /* sturdy_sniffleApp.swift in Sources */,
 				A4CF787C2788A877007FB744 /* ProgressCircleView.swift in Sources */,
+				A401B2B9278B7FE800CD9F5C /* RequestHealthAccessButtonView.swift in Sources */,
 				A4CF786227889246007FB744 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

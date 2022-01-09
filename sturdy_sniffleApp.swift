@@ -4,7 +4,7 @@ import SwiftUI
 struct sturdy_sniffleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RequestHealthAccessButtonView()
         }
     }
 }
