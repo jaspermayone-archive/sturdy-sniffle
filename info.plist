@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>NSHealthUpdateUsageDescription</key>
-	<string>Required to make app fuctional.</string>
+	<string>Required to write incoming data from doctors.</string>
 	<key>NSHealthShareUsageDescription</key>
-	<string>Required to make app fuctional.</string>
+	<string>Required to get statistics and data to populate app.</string>
 	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
 	<string>Required to make app fuctional.</string>
 	<key>UILaunchScreen</key>

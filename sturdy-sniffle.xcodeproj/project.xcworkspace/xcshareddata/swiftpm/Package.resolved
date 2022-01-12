@@ -9,6 +9,24 @@
           "revision": "9d4233253faf39e5dcd52e6cb4a0498ac4ca4a1f",
           "version": "2.0.2"
         }
+      },
+      {
+        "package": "Indicators",
+        "repositoryURL": "https://github.com/Connapptivity/SwiftUI-Indicators",
+        "state": {
+          "branch": null,
+          "revision": "648e564de40ca702d216f15ac69faeb831363993",
+          "version": "1.3.1"
+        }
+      },
+      {
+        "package": "SwiftUICharts",
+        "repositoryURL": "https://github.com/willdale/SwiftUICharts",
+        "state": {
+          "branch": null,
+          "revision": "6ba7163599e26a8292a77e8be5c4ddcbfbdc5c70",
+          "version": "2.9.7"
+        }
       }
     ]
   },
