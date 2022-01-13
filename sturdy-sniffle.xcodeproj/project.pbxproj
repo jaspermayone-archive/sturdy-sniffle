@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A401B2B9278B7FE800CD9F5C /* RequestHealthAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A401B2B8278B7FE800CD9F5C /* RequestHealthAccessView.swift */; };
+		A4018A1F27905FCA000A7FF7 /* Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4018A1E27905FCA000A7FF7 /* Divider.swift */; };
+		A401B2B9278B7FE800CD9F5C /* RequestAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A401B2B8278B7FE800CD9F5C /* RequestAccessView.swift */; };
 		A401B2BB278B915F00CD9F5C /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A401B2BA278B915F00CD9F5C /* WelcomeScreenView.swift */; };
 		A4578B8A278D2FB80025A695 /* Indicators in Frameworks */ = {isa = PBXBuildFile; productRef = A4578B89278D2FB80025A695 /* Indicators */; };
 		A4578B8D278D2FCB0025A695 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = A4578B8C278D2FCB0025A695 /* SwiftUICharts */; };
@@ -23,7 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A401B2B8278B7FE800CD9F5C /* RequestHealthAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHealthAccessView.swift; sourceTree = "<group>"; };
+		A4018A1E27905FCA000A7FF7 /* Divider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divider.swift; sourceTree = "<group>"; };
+		A401B2B8278B7FE800CD9F5C /* RequestAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAccessView.swift; sourceTree = "<group>"; };
 		A401B2BA278B915F00CD9F5C /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		A4CF784D27889245007FB744 /* sturdy_sniffleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sturdy_sniffleApp.swift; sourceTree = "<group>"; };
 		A4CF784E27889245007FB744 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,22 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		A475B103278F150A00AC6EF7 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A401B2BA278B915F00CD9F5C /* WelcomeScreenView.swift */,
+				A401B2B8278B7FE800CD9F5C /* RequestAccessView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		A475B106278F157900AC6EF7 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
 		A4CF784527889245007FB744 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				A4CF787B2788A877007FB744 /* ProgressCircleView.swift */,
+				A4018A1E27905FCA000A7FF7 /* Divider.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -101,10 +120,10 @@
 		A4CF787D278902D3007FB744 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A401B2BA278B915F00CD9F5C /* WelcomeScreenView.swift */,
 				A4CF784E27889245007FB744 /* ContentView.swift */,
+				A475B103278F150A00AC6EF7 /* Onboarding */,
 				A4CF787A2788A836007FB744 /* Common */,
-				A401B2B8278B7FE800CD9F5C /* RequestHealthAccessView.swift */,
+				A475B106278F157900AC6EF7 /* Error */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,7 +222,8 @@
 				A4CF786027889246007FB744 /* sturdy_sniffleApp.swift in Sources */,
 				A401B2BB278B915F00CD9F5C /* WelcomeScreenView.swift in Sources */,
 				A4CF787C2788A877007FB744 /* ProgressCircleView.swift in Sources */,
-				A401B2B9278B7FE800CD9F5C /* RequestHealthAccessView.swift in Sources */,
+				A4018A1F27905FCA000A7FF7 /* Divider.swift in Sources */,
+				A401B2B9278B7FE800CD9F5C /* RequestAccessView.swift in Sources */,
 				A4CF786227889246007FB744 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,12 @@ struct WelcomeScreenView: View {
     
     var body: some View {
         VStack {
+            Text("hey!")
+                .foregroundColor(.white)
+            Spacer()
         }
+        .padding(100)
+        .background(Image("mainBackround").resizable().aspectRatio(contentMode: .fill)).edgesIgnoringSafeArea(.all)
     }
 }
 
