@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A4018A1F27905FCA000A7FF7 /* Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4018A1E27905FCA000A7FF7 /* Divider.swift */; };
-		A401B2B9278B7FE800CD9F5C /* RequestAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A401B2B8278B7FE800CD9F5C /* RequestAccessView.swift */; };
 		A401B2BB278B915F00CD9F5C /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A401B2BA278B915F00CD9F5C /* WelcomeScreenView.swift */; };
+		A4171F6627A81E6C00AD3CEF /* HealthAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4171F6527A81E6C00AD3CEF /* HealthAccessView.swift */; };
+		A4171F6927A81EBB00AD3CEF /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = A4171F6827A81EBB00AD3CEF /* NavigationStack */; };
+		A4171F6B27A8368000AD3CEF /* NotificationAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4171F6A27A8368000AD3CEF /* NotificationAccessView.swift */; };
 		A4578B8A278D2FB80025A695 /* Indicators in Frameworks */ = {isa = PBXBuildFile; productRef = A4578B89278D2FB80025A695 /* Indicators */; };
 		A4578B8D278D2FCB0025A695 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = A4578B8C278D2FCB0025A695 /* SwiftUICharts */; };
 		A4C8E9BE278B347800282BC4 /* CareKit in Frameworks */ = {isa = PBXBuildFile; productRef = A4C8E9BD278B347800282BC4 /* CareKit */; };
@@ -21,12 +23,16 @@
 		A4CF787427889295007FB744 /* HealthKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CF787227889295007FB744 /* HealthKitUI.framework */; };
 		A4CF787527889295007FB744 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CF787327889295007FB744 /* HealthKit.framework */; };
 		A4CF787C2788A877007FB744 /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CF787B2788A877007FB744 /* ProgressCircleView.swift */; };
+		A4D481DF27ADD18B00F0ECA3 /* Shiny in Frameworks */ = {isa = PBXBuildFile; productRef = A4D481DE27ADD18B00F0ECA3 /* Shiny */; };
+		A4D481E227ADD40C00F0ECA3 /* SlideOverCard in Frameworks */ = {isa = PBXBuildFile; productRef = A4D481E127ADD40C00F0ECA3 /* SlideOverCard */; };
+		A4D481E427ADD43100F0ECA3 /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D481E327ADD43100F0ECA3 /* PermissionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A4018A1E27905FCA000A7FF7 /* Divider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divider.swift; sourceTree = "<group>"; };
-		A401B2B8278B7FE800CD9F5C /* RequestAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAccessView.swift; sourceTree = "<group>"; };
 		A401B2BA278B915F00CD9F5C /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		A4171F6527A81E6C00AD3CEF /* HealthAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAccessView.swift; sourceTree = "<group>"; };
+		A4171F6A27A8368000AD3CEF /* NotificationAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAccessView.swift; sourceTree = "<group>"; };
 		A4CF784D27889245007FB744 /* sturdy_sniffleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sturdy_sniffleApp.swift; sourceTree = "<group>"; };
 		A4CF784E27889245007FB744 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A4CF785027889246007FB744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +42,7 @@
 		A4CF787327889295007FB744 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		A4CF7876278892F1007FB744 /* app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = app.entitlements; sourceTree = "<group>"; };
 		A4CF787B2788A877007FB744 /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
+		A4D481E327ADD43100F0ECA3 /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,11 +50,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D481E227ADD40C00F0ECA3 /* SlideOverCard in Frameworks */,
 				A4578B8A278D2FB80025A695 /* Indicators in Frameworks */,
 				A4578B8D278D2FCB0025A695 /* SwiftUICharts in Frameworks */,
 				A4C8E9C0278B347800282BC4 /* CareKitStore in Frameworks */,
+				A4D481DF27ADD18B00F0ECA3 /* Shiny in Frameworks */,
 				A4C8E9BE278B347800282BC4 /* CareKit in Frameworks */,
 				A4C8E9C2278B347800282BC4 /* CareKitUI in Frameworks */,
+				A4171F6927A81EBB00AD3CEF /* NavigationStack in Frameworks */,
 				A4CF787427889295007FB744 /* HealthKitUI.framework in Frameworks */,
 				A4CF787527889295007FB744 /* HealthKit.framework in Frameworks */,
 			);
@@ -67,7 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				A401B2BA278B915F00CD9F5C /* WelcomeScreenView.swift */,
-				A401B2B8278B7FE800CD9F5C /* RequestAccessView.swift */,
+				A4171F6A27A8368000AD3CEF /* NotificationAccessView.swift */,
+				A4171F6527A81E6C00AD3CEF /* HealthAccessView.swift */,
+				A4D481E327ADD43100F0ECA3 /* PermissionView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -160,6 +172,9 @@
 				A4C8E9C1278B347800282BC4 /* CareKitUI */,
 				A4578B89278D2FB80025A695 /* Indicators */,
 				A4578B8C278D2FCB0025A695 /* SwiftUICharts */,
+				A4171F6827A81EBB00AD3CEF /* NavigationStack */,
+				A4D481DE27ADD18B00F0ECA3 /* Shiny */,
+				A4D481E127ADD40C00F0ECA3 /* SlideOverCard */,
 			);
 			productName = "sturdy-sniffle (iOS)";
 			productReference = A4CF785527889246007FB744 /* sturdy-sniffle.app */;
@@ -193,6 +208,9 @@
 				A4C8E9BC278B347800282BC4 /* XCRemoteSwiftPackageReference "CareKit" */,
 				A4578B88278D2FB80025A695 /* XCRemoteSwiftPackageReference "SwiftUI-Indicators" */,
 				A4578B8B278D2FCB0025A695 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+				A4171F6727A81EBB00AD3CEF /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
+				A4D481DD27ADD18B00F0ECA3 /* XCRemoteSwiftPackageReference "shiny" */,
+				A4D481E027ADD40C00F0ECA3 /* XCRemoteSwiftPackageReference "SlideOverCard" */,
 			);
 			productRefGroup = A4CF785627889246007FB744 /* Products */;
 			projectDirPath = "";
@@ -219,11 +237,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4171F6627A81E6C00AD3CEF /* HealthAccessView.swift in Sources */,
 				A4CF786027889246007FB744 /* sturdy_sniffleApp.swift in Sources */,
 				A401B2BB278B915F00CD9F5C /* WelcomeScreenView.swift in Sources */,
+				A4D481E427ADD43100F0ECA3 /* PermissionView.swift in Sources */,
+				A4171F6B27A8368000AD3CEF /* NotificationAccessView.swift in Sources */,
 				A4CF787C2788A877007FB744 /* ProgressCircleView.swift in Sources */,
 				A4018A1F27905FCA000A7FF7 /* Divider.swift in Sources */,
-				A401B2B9278B7FE800CD9F5C /* RequestAccessView.swift in Sources */,
 				A4CF786227889246007FB744 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +461,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		A4171F6727A81EBB00AD3CEF /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/matteopuc/swiftui-navigation-stack.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		A4578B88278D2FB80025A695 /* XCRemoteSwiftPackageReference "SwiftUI-Indicators" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Connapptivity/SwiftUI-Indicators";
@@ -465,9 +493,30 @@
 				minimumVersion = 2.0.0;
 			};
 		};
+		A4D481DD27ADD18B00F0ECA3 /* XCRemoteSwiftPackageReference "shiny" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maustinstar/shiny.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A4D481E027ADD40C00F0ECA3 /* XCRemoteSwiftPackageReference "SlideOverCard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joogps/SlideOverCard";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A4171F6827A81EBB00AD3CEF /* NavigationStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4171F6727A81EBB00AD3CEF /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */;
+			productName = NavigationStack;
+		};
 		A4578B89278D2FB80025A695 /* Indicators */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A4578B88278D2FB80025A695 /* XCRemoteSwiftPackageReference "SwiftUI-Indicators" */;
@@ -492,6 +541,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A4C8E9BC278B347800282BC4 /* XCRemoteSwiftPackageReference "CareKit" */;
 			productName = CareKitUI;
+		};
+		A4D481DE27ADD18B00F0ECA3 /* Shiny */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4D481DD27ADD18B00F0ECA3 /* XCRemoteSwiftPackageReference "shiny" */;
+			productName = Shiny;
+		};
+		A4D481E127ADD40C00F0ECA3 /* SlideOverCard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4D481E027ADD40C00F0ECA3 /* XCRemoteSwiftPackageReference "SlideOverCard" */;
+			productName = SlideOverCard;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

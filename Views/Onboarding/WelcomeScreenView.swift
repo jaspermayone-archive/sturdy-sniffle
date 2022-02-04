@@ -1,18 +1,16 @@
 import SwiftUI
-import CareKitUI
-import CareKit
-import CareKitStore
+import NavigationStack
 
 struct WelcomeScreenView: View {
-    
     var body: some View {
-        VStack {
-            Text("hey!")
-                .foregroundColor(.white)
-            Spacer()
+        NavigationView {
+            VStack {
+                Text("hey!")
+                    .foregroundColor(.white)
+            }
+            .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+            .background(Color("MainColor"))
         }
-        .padding(100)
-        .background(Image("mainBackround").resizable().aspectRatio(contentMode: .fill)).edgesIgnoringSafeArea(.all)
     }
 }
 

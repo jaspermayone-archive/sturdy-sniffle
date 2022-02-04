@@ -11,12 +11,39 @@
         }
       },
       {
+        "package": "Shiny",
+        "repositoryURL": "https://github.com/maustinstar/shiny.git",
+        "state": {
+          "branch": "master",
+          "revision": "862360b8ab6b9ea9eb1156569a30f154b22625a5",
+          "version": null
+        }
+      },
+      {
+        "package": "SlideOverCard",
+        "repositoryURL": "https://github.com/joogps/SlideOverCard",
+        "state": {
+          "branch": "main",
+          "revision": "791197c26a0fea83fcf31b1e9fb9a324db7a4b0b",
+          "version": null
+        }
+      },
+      {
         "package": "Indicators",
         "repositoryURL": "https://github.com/Connapptivity/SwiftUI-Indicators",
         "state": {
           "branch": null,
           "revision": "648e564de40ca702d216f15ac69faeb831363993",
           "version": "1.3.1"
+        }
+      },
+      {
+        "package": "NavigationStack",
+        "repositoryURL": "https://github.com/matteopuc/swiftui-navigation-stack.git",
+        "state": {
+          "branch": "master",
+          "revision": "be0db68ed0d84ed543bf8f7600a1f84de015f753",
+          "version": null
         }
       },
       {

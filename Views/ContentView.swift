@@ -6,9 +6,10 @@ import HealthKit
 struct ContentView: View {
     var body: some View {
         VStack {
-            Spacer()
+            Text("Hey")
         }
-        .background(Image("3788808").resizable().aspectRatio(contentMode: .fill)).edgesIgnoringSafeArea(.all)
+        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        .background(Color("MainColor"))
     }
 }
 
